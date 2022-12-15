@@ -11,6 +11,8 @@ Team work
 * Implement the pint opcode 
 * The opcode pint prints the value at the top of the stack, followed by a new line.
 
-
+### 2. pop
+* Implement the pop opcode.
+* The opcode pop removes the top element of the stack.
 ## Authors/Collaborators
 [D. Mbedobe KUNJI](https://github.com/mbedobe) || [Adowarim Lugu](https://github.com/lugu22)
