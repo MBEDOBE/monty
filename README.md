@@ -4,4 +4,4 @@ Team work
 
 
 ## Authors/Collaborators
-[D. Mbedobe KUNJI](https://github.com/mbedobe) || [Adowarim Lugo](https://github.com/adowarim)
+[D. Mbedobe KUNJI](https://github.com/mbedobe) || [Adowarim Lugu](https://github.com/lugu22)
