@@ -19,6 +19,8 @@ Team work
 * Implement the swap opcode
 * The opcode swap swaps the top two elements of the stack.
 
-
+### 4. add
+* Implement the add opcode
+* The opcode add adds the top two elements of the stack.
 ## Authors/Collaborators
 [D. Mbedobe KUNJI](https://github.com/mbedobe) || [Adowarim Lugu](https://github.com/lugu22)
