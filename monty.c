@@ -1,24 +1,29 @@
 #include "monty.h"
-global_var var_global;
-/**
- * main - driver function for monty program
- * @ac: int num of arguments
- * @av: opcode file
- * Return: 0
- */
-int main(int ac, char **av)
-{
-	stack_t *stack;
 
-	stack = NULL;
-	if (ac != 2)
+/**
+ * main - opens a monty script file for parsing
+ * @argc: count of arguments
+ * @argv: array of arguments
+ *
+ * Return: EXIT_SUCCESS on success, EXIT_FAILURE on failure
+ */
+int main(int argc, char *argv[])
+{
+	FILE *file;
+
+	if (argc != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
 		exit(EXIT_FAILURE);
 	}
 
-	read_file(av[1], &stack);
-    /* recordar liberar memorias */
-	free_dlistint(stack);
-	return (0);
+	file = fopen(argv[1], "r");
+	if (!file)
+	{
+		fprintf(stderr, "Error: Can't open file %s\n", argv[1]);
+		exit(EXIT_FAILURE);
+	}
+
+	parsefile(file);
+	return (EXIT_SUCCESS);
 }
