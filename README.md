@@ -14,5 +14,11 @@ Team work
 ### 2. pop
 * Implement the pop opcode.
 * The opcode pop removes the top element of the stack.
+
+### 3. swap 
+* Implement the swap opcode
+* The opcode swap swaps the top two elements of the stack.
+
+
 ## Authors/Collaborators
 [D. Mbedobe KUNJI](https://github.com/mbedobe) || [Adowarim Lugu](https://github.com/lugu22)
